@@ -30,14 +30,12 @@ error_reporting(E_ALL);
         //step 2
         echo '<p>Step 2</p>';
 
+        include("functions.php");
+
         $numbers = array(7, 9, 8, 9, 8, 8, 6);
         printArr($numbers);
 
-        function printArr($myArray){
-            foreach($myArray as $number){
-                echo $number . '<br>';
-            }
-        }
+        echo '<p>Step 3 - Moved  print function to functions.php</p>';
 
 
 
