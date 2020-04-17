@@ -4,3 +4,7 @@
         echo $number . '<br>';
         }
     }
+
+    function largest($myArray){
+        echo max($myArray);
+    }

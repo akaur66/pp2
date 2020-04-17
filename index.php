@@ -27,7 +27,6 @@ error_reporting(E_ALL);
     <?
         echo "<p>PHP Array Practice</p>";
 
-        //step 2
         echo '<p>Step 2</p>';
 
         include("functions.php");
@@ -37,6 +36,8 @@ error_reporting(E_ALL);
 
         echo '<p>Step 3 - Moved  print function to functions.php</p>';
 
+        echo '<p>Step 4</p>';
+        largest($numbers);
 
 
     ?>
