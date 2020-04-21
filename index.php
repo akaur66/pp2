@@ -43,6 +43,12 @@ error_reporting(E_ALL);
         echo 'Step 5<br>';
         printArr($uniqueArray);
 
+        $assoArray = distribution($numbers);
+        echo '<br>Step 6<br>';
+        ksort($assoArray);
+        printAssoArray($assoArray);
+
+
     ?>
 </body>
 </html>
