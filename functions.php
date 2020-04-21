@@ -6,5 +6,9 @@
     }
 
     function largest($myArray){
-        echo max($myArray);
+        return max($myArray);
+    }
+
+    function removeDups($myArray){
+        return array_unique($myArray);
     }

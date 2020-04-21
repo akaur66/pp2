@@ -27,7 +27,7 @@ error_reporting(E_ALL);
     <?
         echo "<p>PHP Array Practice</p>";
 
-        echo '<p>Step 2</p>';
+        echo 'Step 2<br>';
 
         include("functions.php");
 
@@ -36,9 +36,12 @@ error_reporting(E_ALL);
 
         echo '<p>Step 3 - Moved  print function to functions.php</p>';
 
-        echo '<p>Step 4</p>';
-        largest($numbers);
+        $largest = largest($numbers);
+        echo "<p>Step 4 = $largest</p>";
 
+        $uniqueArray = removeDups($numbers);
+        echo 'Step 5<br>';
+        printArr($uniqueArray);
 
     ?>
 </body>
